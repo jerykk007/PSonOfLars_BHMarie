@@ -42,7 +42,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
             raise
 
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("ഞാൻ അഡ്മിൻസിനെ നിരോധിക്കാൻ കഴിയുമോ")
+        message.reply_text("എന്തോ, എനിക്കയാളെ ബൺ കൊടുത്തുവിടാൻ പറ്റുന്നില്ല .")
         return ""
 
     if user_id == bot.id:
@@ -106,7 +106,7 @@ def temp_ban(bot: Bot, update: Update, args: List[str]) -> str:
             raise
 
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("ഞാൻ അഡ്മിൻസിനെ നിരോധിക്കാൻ കഴിയുമോ ..?")
+        message.reply_text("എന്തോ, എനിക്കയാളെ ബൺ കൊടുത്തുവിടാൻ പറ്റുന്നില്ല .")
         return ""
 
     if user_id == bot.id:
@@ -184,7 +184,7 @@ def kick(bot: Bot, update: Update, args: List[str]) -> str:
             raise
 
     if is_user_ban_protected(chat, user_id):
-        message.reply_text("ഞാൻ അഡ്മിനെ കിക്ക് ചെയ്യാൻ ആഗ്രഹിക്കുന്നു ...")
+        message.reply_text("എന്തോ, എനിക്കയാളെ ബൺ കൊടുത്തുവിടാൻ പറ്റുന്നില്ല .")
         return ""
 
     if user_id == bot.id:
