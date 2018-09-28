@@ -18,11 +18,11 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}! I'm a group manager bot maintained by [this wonderful person](tg://user?id={}).
+മുതലാളീ  {}, എന്റെ പേര് {}! ഞാൻ നിങ്ങളുടെ ഗ്രൂപ്പുകൾ മനോഹരമാക്കുന്നു എന്നെ പടച്ച് വിട്ടത് [this wonderful person](tg://user?id={})ആണ്.
 I'm built in python3, using the python-telegram-bot library, and am fully [opensource](https://github.com/PaulSonOfLars/tgbot) you can find what makes me tick \
 [here](github.com/SpEcHiDe/PSonOfLars_Marie)!
 
-You can find the list of available commands with /help.
+എന്നിൽ നിന്നും എന്തെങ്കിലും സഹായം പ്രതീക്ഷിക്കുന്നുണ്ടെക്ലിൽ ഇവിടെ ക്ലിക്ക് ചെയ്യുക  /help.
 
 Using standard [Marie](http://telegram.dog/BanhammerMarie_bot) is always gonna be easier.
 Perks:
@@ -33,14 +33,14 @@ Perks:
 - bugs will always be fixed ASAP
 - no need to maintain anything yourself
 
-Also, no support can be given for any [clones](https://telegram.dog/MidukkiBot); source might be changed and that's not [my](https://telegram.dog/PaulSonOfLars) problem.
+Also, no support can be given for any [clones](https://telegram.dog/betteraliabot); source might be changed and that's not [my](https://telegram.dog/PaulSonOfLars) problem.
 **Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
 
 If you're enjoying using me, and/or would like to help me survive in the wild, hit /donate to help fund/upgrade my VPS!
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+ മുതലാളീ എന്റെ പേര്  *{}*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 
